@@ -1,0 +1,19 @@
+{
+  "name": "llm-output-guardrails",
+  "version": "0.1.0",
+  "description": "A small example of treating LLM output as untrusted day-trip suggestions.",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "demo": "tsx examples/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
